@@ -1,0 +1,36 @@
+{
+  "name": "ionic-chat-socket",
+  "version": "0.1.0",
+  "description": "A module for ionic with socket io chat",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rimraf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "keywords": [],
+  "author": "Luis Gallegos",
+  "license": "MIT",
+  "homepage": "https://ionicacademy.com",
+  "devDependencies": {
+    "@angular/common": "5.0.3",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
+    "@angular/core": "5.0.3",
+    "@angular/forms": "^5.2.7",
+    "@angular/platform-browser": "5.0.3",
+    "@angular/platform-browser-dynamic": "5.0.3",
+    "@types/node": "^9.4.6",
+    "ionic-angular": "3.9.2",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "rxjs": "5.5.2",
+    "socket.io-client": "^2.1.1",
+    "typescript": "2.4.2",
+    "zone.js": "0.8.18"
+  }
+}
